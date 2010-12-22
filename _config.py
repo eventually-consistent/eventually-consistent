@@ -75,8 +75,8 @@ blog.auto_permalink.path    = "/blog/:year/:month/:day/:title"
 # Intermediate Settings
 ######################################################################
 #### Disqus.com comment integration ####
-blog.disqus.enabled = False
-blog.disqus.name    = "blogofile"
+blog.disqus.enabled = True
+blog.disqus.name    = "manuelohlendorf"
 
 ### Syntax highlighter ###
 # You can change the style to any builtin Pygments style
@@ -147,6 +147,9 @@ blog.post_default_filters = {
 ### Pre/Post build hooks:
 def pre_build():
     if not os.path.isdir("_tmp"):
+        os.mkdir("_tmp")
+    else:
+        shutil.rmtree("_tmp")
         os.mkdir("_tmp")
     shutil.move(os.path.join("_site",".git"),"_tmp")    
     #Do whatever you want before the _site is built

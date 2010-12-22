@@ -2,7 +2,7 @@
   <div id="contact">
     <h3>About Me</h3>
     <br/>
-    <img src="site_img/me.jpg"/>
+    <img src="/site_img/me.jpg"/>
   </div>
   <div id="blog_post_list">
   <h3>Latest blog posts</h3>
