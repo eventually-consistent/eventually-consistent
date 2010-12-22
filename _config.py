@@ -146,11 +146,14 @@ blog.post_default_filters = {
 
 ### Pre/Post build hooks:
 def pre_build():
+    if not os.path.isdir("_tmp"):
+        os.mkdir("_tmp")
+    shutil.move(os.path.join("_site",".git"),"_tmp")    
     #Do whatever you want before the _site is built
     pass
 def post_build():
+    shutil.move(os.path.join("_tmp",".git"),"_site")    
     #Do whatever you want after the _site is built
-    build_docs()
 
 #Build the example photo_gallery controller
 controllers.photo_gallery.enabled = True
