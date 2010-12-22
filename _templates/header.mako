@@ -13,8 +13,7 @@
   <div class="ButtonBar">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="${bf.util.site_path_helper('/documentation')}">Documentation</a></li>
-      <li><a href="${bf.util.site_path_helper('/community')}">Community</a></li>
+      <!--li><a href="${bf.util.site_path_helper('/community')}">Community</a></li-->
       <li><a href="${bf.config.util.site_path_helper(bf.config.blog.path)}">Blog</a></li>
     </ul>
   </div>
