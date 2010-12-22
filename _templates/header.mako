@@ -13,8 +13,8 @@
   <div class="ButtonBar">
     <ul>
       <li><a href="/">Home</a></li>
-      <!--li><a href="${bf.util.site_path_helper('/community')}">Community</a></li-->
       <li><a href="${bf.config.util.site_path_helper(bf.config.blog.path)}">Blog</a></li>
+      <li><a href="${bf.util.site_path_helper('/cv.html')}">CV</a></li>
     </ul>
   </div>
   <div id="search">    
