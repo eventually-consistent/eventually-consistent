@@ -9,12 +9,13 @@ href="${bf.util.site_path_helper(bf.config.blog.path,'/feed/atom')}" />
 <link rel='stylesheet' href='/css/site.css' type='text/css' />
 <link rel='stylesheet' href='/css/jquery.tweet.css' type='text/css' />
 
-<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.tweet.js"></script>
 <script type="text/javascript" src="/js/googleRSSWidget.js"></script>
 <script type="text/javascript" src="/js/site.js"></script>
 
 <script type="text/javascript">
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1937462-1']);
   _gaq.push(['_trackPageview']);
@@ -24,4 +25,5 @@ href="${bf.util.site_path_helper(bf.config.blog.path,'/feed/atom')}" />
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
 </script>
