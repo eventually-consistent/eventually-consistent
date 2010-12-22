@@ -9,7 +9,6 @@
     </a>
   </h1>
 </div>
-<a href="http://github.com/EnigmaCurry/blogofile"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 <div id="top_bar">
   <div class="ButtonBar">
     <ul>
