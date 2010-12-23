@@ -81,7 +81,7 @@ blog.disqus.name    = "manuelohlendorf"
 ### Syntax highlighter ###
 # You can change the style to any builtin Pygments style
 # or, make your own: http://pygments.org/docs/styles
-filters.syntax_highlight.style   = "murphy"
+filters.syntax_highlight.style   = "monokai"
 filters.syntax_highlight.css_dir = "/css"
 filters.syntax_highlight.preload_styles = ["murphy","monokai"]
 #### Custom blog index ####

@@ -1,6 +1,6 @@
 *.pyc
 *~
-_documentation/themes/blogofile/layout.html
 \#*
 .#*
 *.pyc
+project.geany
