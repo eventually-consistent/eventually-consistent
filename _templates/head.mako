@@ -3,6 +3,7 @@
 <link rel="alternate" type="application/atom+xml" title="Atom 1.0"
 href="${bf.util.site_path_helper(bf.config.blog.path,'/feed/atom')}" />
 
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 % for css_file in bf.config.filters.syntax_highlight.mod.css_files_written:
 <link rel='stylesheet' href='${css_file}' type='text/css' />
 % endfor
