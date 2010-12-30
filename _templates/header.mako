@@ -4,9 +4,12 @@
 </header>
 <nav>
     <ul>
-      <li class="selected"><a href="/">Home</a></li>
-      <li class="selected"><a href="${bf.config.util.site_path_helper(bf.config.blog.path)}">Blog</a></li>
-      <li class="selected"><a href="${bf.util.site_path_helper('/cv.html')}">CV</a></li>
+    % for nav_items in bf.config.navigation:
+        % for nav_item, nav_url in nav_items.items():
+            <li class="selected"><a href="${nav_url}">${nav_item}</a></li>
+        % endfor
+    % endfor
+     
     </ul>
     <!--div id="search">    
         <form id="searchform" method="get" action="http://www.google.com/search">

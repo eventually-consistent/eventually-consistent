@@ -54,7 +54,7 @@ blog.name        = "Manuel Ohlendorf"
 blog.description = "Manuel Ohlendorf writing about something"
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
-blog.timezone    = "US/Eastern"
+blog.timezone    = "Europe/Berlin"
 
 ## blog_posts_per_page -- Blog posts per page
 blog.posts_per_page = 5
@@ -152,6 +152,13 @@ github.link_watchers = True
 github.link_forks = True
 github.link_issues = True
 github.link_rss_feed = False
+
+## Navigation
+navigation = [
+        {'Home': '/'},
+        {'Blog': '/blog'},
+        {'CV': '/cv.html'},
+]
 
 ### Pre/Post build hooks:
 def pre_build():
