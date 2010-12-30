@@ -8,10 +8,8 @@ href="${bf.util.site_path_helper(bf.config.blog.path,'/feed/atom')}" />
 <link rel='stylesheet' href='${css_file}' type='text/css' />
 % endfor
 <link rel='stylesheet' href='/css/html5.css' type='text/css' />
-<link rel='stylesheet' href='/css/jquery.tweet.css' type='text/css' />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.tweet.js"></script>
 <script type="text/javascript" src="/js/site.js"></script>
 
 <script type="text/javascript">
