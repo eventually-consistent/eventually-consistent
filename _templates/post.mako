@@ -4,10 +4,12 @@
 import re
 post_id = re.sub("[ ?]","-",post.title.lower()) %>
 
-<div class="blog_post" id="${post_id}">
-  <a class="blog_post_title" name="${post.title}" />
-  <h2 class="blog_post_title"><a href="${post.permapath()}" rel="bookmark" title="Permanent Link to ${post.title}">${post.title}</a></h2>
-  <small>${post.date.strftime("%B %d, %Y at %I:%M %p")} | categories: 
+<section>
+	<article class="blogPost" id="${post_id}">
+		<header>
+			<a class="blogPostTitle" name="${post.title}" />
+            <h2 class="blogPostTitle"><a href="${post.permapath()}" rel="bookmark" title="Permanent Link to ${post.title}">${post.title}</a></h2>
+			<p><time datetime="${post.date.strftime("%Y-%m-%dT%H:%M:%S%z")}">${post.date.strftime("%B %d, %Y at %I:%M %p")}</time> | categories: 
 <% 
    category_links = []
    for category in post.categories:
@@ -21,11 +23,13 @@ ${", ".join(category_links)}
 % if bf.config.blog.disqus.enabled:
  | <a href="${post.permalink}#disqus_thread">View Comments</a>
 % endif
-  </small>
-  <span class="post_prose">
-    ${self.post_prose(post)}
-  </span>
-</div>
+  </p>
+  </header>
+    <div>
+        ${self.post_prose(post)}
+	</div>
+    </article>
+</section>
 
 <%def name="post_prose(post)">
   ${post.content}

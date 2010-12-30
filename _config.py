@@ -83,7 +83,7 @@ blog.disqus.name    = "manuelohlendorf"
 # or, make your own: http://pygments.org/docs/styles
 filters.syntax_highlight.style   = "monokai"
 filters.syntax_highlight.css_dir = "/css"
-filters.syntax_highlight.preload_styles = ["murphy","monokai"]
+filters.syntax_highlight.preload_styles = ["monokai"]
 #### Custom blog index ####
 # If you want to create your own index page at your blog root
 # turn this on. Otherwise blogofile assumes you want the
@@ -143,6 +143,15 @@ blog.post_default_filters = {
     "rst": "syntax_highlight, rst, paragraph_permalinks",
     "html": "syntax_highlight, paragraph_permalinks"
 }
+
+## github projects
+controllers.github.enabled = True
+github = controllers.github
+github.user = "mohlendo"
+github.link_watchers = True
+github.link_forks = True
+github.link_issues = True
+github.link_rss_feed = False
 
 ### Pre/Post build hooks:
 def pre_build():

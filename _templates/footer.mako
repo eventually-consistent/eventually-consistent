@@ -1,13 +1,27 @@
-<p id="credits">
-Powered by <a href="http://www.blogofile.com">Blogofile</a>.<br/>
-<br/>
-RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
+<div>
+<section id="about">
+    <header><h3>About</h3></header>
+    <p>Powered by <a href="http://www.blogofile.com">Blogofile</a>.</p>
+</section>
+<section>
+    <header><h3>Feeds</h3></header>
+<p>RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
 % if bf.config.blog.disqus.enabled:
  and <a
 href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">Comments</a>.
 % endif
-<br>
 </p>
+</section>
+<section>
+    <header>
+        <h3>Latest blog posts</h3>
+    </header>
+    <ul>
+    % for post in bf.config.blog.posts[:5]:
+        <li><a href="${post.path}">${post.title}</a></li>
+    % endfor
+    </ul>
+</section>
 % if bf.config.blog.disqus.enabled:
 <script type="text/javascript">
 //<![CDATA[
@@ -24,3 +38,4 @@ href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">Comments</a>.
 //]]>
 </script>
 % endif
+</div>
