@@ -2,18 +2,13 @@
     <header>
         <h3>About Me</h3>
     </header>
-    <div id="about">
-        <div id="me">
-        </div>
-        <div id="text">
-            If you want to contact me, send an <a href="mailto:mail@manuel.ohlendorf.de">email</a> or use one of my social networking profiles:
-            <ul>
-                <li><a href="http://twitter.com/mohlendo"/>twitter</a></li>
-                <li><a href="http://www.flickr.com/photos/14257612@N02/"/>flickr</a></li>
-                <li><a href="http://www.facebook.com/mohlendo"/>facebook</a></li>
-            </ul>
-        </div>
-    </div>    
+    <image src="/site_img/me.jpg" width="100" height="150"/>
+    If you want to contact me, send an <a href="mailto:mail@manuel.ohlendorf.de">email</a> or use one of my social networking profiles:
+    <ul>
+        <li><a href="http://twitter.com/mohlendo"/>twitter</a></li>
+        <li><a href="http://www.flickr.com/photos/14257612@N02/"/>flickr</a></li>
+        <li><a href="http://www.facebook.com/mohlendo"/>facebook</a></li>
+    </ul>
 </section>
 <section>
     <header>
@@ -25,14 +20,6 @@
     % endfor
     </ul>
 </section>
-<!--section id="on_twitter">
-    <header>
-        <h3>On Twitter <small>the good, the bad, and the ugly</small></h3>
-    </header>
-    <div id="mohlendo_tweets"></div>
-    <a href="http://search.twitter.com/search?q=mohlendo" style="float: right">See more tweets</a>
-</section-->
-
 % if hasattr(bf.config, "github"):
     <%include file="github.mako" />
 % endif 
