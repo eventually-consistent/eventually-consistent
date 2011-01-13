@@ -1,7 +1,7 @@
 ---
 categories: software
 date: 2010/12/23 13:09:03
-title: Hosting a Blogofile Blog on GitHub with GitHub Pages 
+title: A nice new blog with blogofile and github 
 tags: python blogofile git github hosting submodules
 ---
 So, in my first blog post I will describe howto use [GitHub](http://www.github.com) to serve a [Blogofile](http://www.blogofile.com) Blog, which I have done with this blog.
