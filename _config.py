@@ -147,7 +147,7 @@ blog.post_default_filters = {
 ## github projects
 controllers.github.enabled = True
 github = controllers.github
-github.user = "eventually-consistent"
+github.user = "saivenkat"
 github.link_watchers = True
 github.link_forks = True
 github.link_issues = True
