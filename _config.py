@@ -28,7 +28,7 @@ logger = logging.getLogger("blogofile.config")
 #  If you're hosting a blogofile powered site as a subdirectory of a larger
 #  non-blogofile site, then you would set the site_url to the full URL
 #  including that subdirectory: "http://www.yoursite.com/path/to/blogofile-dir"
-site.url         = "http://www.manuel-ohlendorf.de"
+site.url         = "http://eventually-consistent.github.com"
 
 #### Blog Settings ####
 blog = controllers.blog
@@ -47,11 +47,11 @@ blog.path = "/blog"
 
 ## blog_name -- Your Blog's name.
 # This is used repeatedly in default blog templates
-blog.name        = "Manuel Ohlendorf"
+blog.name        = "Eventually Consistent"
 
 ## blog_description -- A short one line description of the blog
 # used in the RSS/Atom feeds.
-blog.description = "Manuel Ohlendorf writing about something"
+blog.description = "As I always said.. Transactional Consistency is overrated."
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone    = "Europe/Berlin"
@@ -75,7 +75,7 @@ blog.auto_permalink.path    = "/blog/:year/:month/:day/:title"
 # Intermediate Settings
 ######################################################################
 #### Disqus.com comment integration ####
-blog.disqus.enabled = True
+blog.disqus.enabled = False
 blog.disqus.name    = "manuelohlendorf"
 
 ### Syntax highlighter ###
@@ -147,7 +147,7 @@ blog.post_default_filters = {
 ## github projects
 controllers.github.enabled = True
 github = controllers.github
-github.user = "mohlendo"
+github.user = "eventually-consistent"
 github.link_watchers = True
 github.link_forks = True
 github.link_issues = True
