@@ -13,9 +13,11 @@
         <div id="mainContent">
             ${next.body()}
         </div>
-        <aside>
+	<div id="right_sidebar">
+          <aside>
             ${self.sidebar()}
-        </aside>
+          </aside>
+	</div>
       </div>
       <footer>
         ${self.footer()}
