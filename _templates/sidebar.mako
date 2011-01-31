@@ -2,7 +2,6 @@
     <header>
         <h3>About Me</h3>
     </header>
-    <image src="/site_img/me.jpg" width="100" height="150"/>
     <div>
         If you want to contact me, send an <a href="mailto:wicked.wukong@gmail.com">email</a> or use one of my social networking profiles:
         <ul>
