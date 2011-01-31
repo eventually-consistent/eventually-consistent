@@ -4,11 +4,11 @@
     </header>
     <image src="/site_img/me.jpg" width="100" height="150"/>
     <div>
-        If you want to contact me, send an <a href="mailto:mail@manuel.ohlendorf.de">email</a> or use one of my social networking profiles:
+        If you want to contact me, send an <a href="mailto:wicked.wukong@gmail.com">email</a> or use one of my social networking profiles:
         <ul>
-            <li><a href="http://twitter.com/mohlendo"/>twitter</a></li>
-            <li><a href="http://www.flickr.com/photos/14257612@N02/"/>flickr</a></li>
-            <li><a href="http://www.facebook.com/mohlendo"/>facebook</a></li>
+            <li><a href="http://twitter.com/sai_venkat"/>twitter</a></li>
+            <li><a href="https://github.com/saivenkat"/>github</a></li>
+            <li><a href="http://cn.linkedin.com/in/saivenkat"/>linkedin</a></li>
         </ul>
     </div>
 </section>
