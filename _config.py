@@ -157,7 +157,7 @@ github.link_rss_feed = False
 navigation = [
         {'Home': '/'},
         {'Blog': '/blog'},
-        {'CV': '/cv.html'},
+#        {'CV': '/cv.html'},
 ]
 
 ### Pre/Post build hooks:
