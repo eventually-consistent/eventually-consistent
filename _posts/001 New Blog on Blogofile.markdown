@@ -8,7 +8,7 @@ It seems it has been a long long time since I last blogged actively. My last act
 After trying wordpress unsuccessfully, here I am blogging in uber geek style :).
 
 ###A bit about me for those who are new###
-I am Sai Venkat. I work as a programmer in a consulting firm, Thoughtworks. As I am not a big fan of consulting, I sit alone and find ways to make systems perform better & scalable which is one of my speciality. I am a sucker for any concurrency & multicore problems, concurrent algorithms & data structures. I believe Concurrency is one of those areas where theory meets practice & a frontier where research meets practice & such areas fascinates me.
+I am Sai Venkat. I work as a Devops and developer-in-test in a consulting firm, Thoughtworks. Finding ways to make systems perform better & scalable which is one of my speciality. I love working on any concurrency & multicore problems, concurrent algorithms & data structures. I believe Concurrency is one of those areas where theory meets practice & a frontier where research meets practice & such areas fascinates me.
 
 My recent area of interest and research is Software Transactional Memory. Here is the implementation I have been contributing to [Multiverse](http://multiverse.codehaus.org). Currently I am working on Transactional Collections like Transactional LinkedLists, HashMaps & SkipLists. I am interested in working on Concurrency problems on JVM but not preferrably Java :). I specialize in databases as well mostly in their concurrency & scaling models. Most of this blog will either be filled with Transactional Memoy materials or something concerened with Concurrency.
 
