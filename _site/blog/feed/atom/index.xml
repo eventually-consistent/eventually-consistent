@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+   >
+  <title type="text">Eventually Consistent</title>
+  <subtitle type="text">As I always say.. Transactional Consistency is overrated.</subtitle>
+
+  <updated>2011-09-11T13:03:48Z</updated>
+  <generator uri="http://blogofile.com/">Blogofile</generator>
+
+  <link rel="alternate" type="text/html" href="http://eventually-consistent.github.com/blog" />
+  <id>http://eventually-consistent.github.com/blog/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="http://eventually-consistent.github.com/blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://eventually-consistent.github.com/blog</uri>
+    </author>
+    <title type="html"><![CDATA[New Blog on Blogfile and Github]]></title>
+    <link rel="alternate" type="text/html" href="http://eventually-consistent.github.com/blog/2011/01/31/new-blog-on-blogfile-and-github" />
+    <id>http://eventually-consistent.github.com/blog/2011/01/31/new-blog-on-blogfile-and-github</id>
+    <updated>2011-01-31T13:09:03Z</updated>
+    <published>2011-01-31T13:09:03Z</published>
+    <category scheme="http://eventually-consistent.github.com/blog" term="introduction" />
+    <summary type="html"><![CDATA[New Blog on Blogfile and Github]]></summary>
+    <content type="html" xml:base="http://eventually-consistent.github.com/blog/2011/01/31/new-blog-on-blogfile-and-github"><![CDATA[<p id="p1">It seems it has been a long long time since I last blogged actively. My last active blog is in Blogger called <a href="http://developer-in-test.blogspot.com">dev-test-ops</a>. But since I moved to China accessing blogger is a pain. So I always wanted to find a better palce to move my blog.
+After trying wordpress unsuccessfully, here I am blogging in uber geek style :).</p>
+<h3>A bit about me for those who are new</h3>
+<p id="p2">I am Sai Venkat. I work as a Devops and developer-in-test in a consulting firm, Thoughtworks. Automated continuous deployments, large scale infrastructure management and finding ways to make systems perform better &amp; scalable are my specialities. I love working on any concurrency &amp; multicore problems, concurrent algorithms &amp; data structures. I believe Concurrency is one of those areas where theory meets practice &amp; a frontier where research meets practice &amp; such areas fascinates me.</p>
+<p id="p3">My recent area of interest and research is Software Transactional Memory. Here is the implementation I have been contributing to <a href="http://multiverse.codehaus.org">Multiverse</a>. Currently I am working on Transactional Collections like Transactional LinkedLists, HashMaps &amp; SkipLists. I am interested in working on Concurrency problems on JVM but not preferrably Java :). I specialize in databases as well mostly in their concurrency &amp; scaling models. Most of this blog will either be filled with Transactional Memoy materials or something concerened with Concurrency.</p>
+<h3>About this site</h3>
+<p id="p4">This is my pensieve. The site acts as my way to share what I think &amp; want to remember. It is built with python, blogofile, git &amp; github. I didn't want to use jekyll because I didn't want both ruby &amp; python in the same machine :P. </p>
+<h3>That's it!</h3>
+<p id="p5">Thank you for showing interesting in the site. I am sure you will find the coming posts interesting &amp; sometimes controversial...</p>
+<h3>Credits</h3>
+<p id="p6">I am too lazy to build the blog myself.. So I got this blog from <a href="http://manuel-ohlendorf.de/blog/2010/12/23/hosting-a-blogofile-blog-on-github-with-github-pages/">here</a>. Thanks Manuel for great work.</p>]]></content>
+  </entry>
+</feed>
