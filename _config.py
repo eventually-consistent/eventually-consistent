@@ -51,10 +51,10 @@ blog.name        = "Eventually Consistent"
 
 ## blog_description -- A short one line description of the blog
 # used in the RSS/Atom feeds.
-blog.description = "As I always said.. Transactional Consistency is overrated."
+blog.description = "As I always say.. Transactional Consistency is overrated."
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
-blog.timezone    = "Europe/Berlin"
+blog.timezone    = "Asia/Shanghai"
 
 ## blog_posts_per_page -- Blog posts per page
 blog.posts_per_page = 5
